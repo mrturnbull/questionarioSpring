@@ -1,0 +1,64 @@
+ #cover{ 	
+ position:fixed;
+ top:0; left:0;
+ background:rgba(0,0,0,0.6);
+ z-index:5;
+ width:100%;
+ height:100%;
+ display:none;
+ }
+
+ #loginScreen { 
+ margin:0 auto;
+ top:50px;
+ left:50px;
+ right:50px;
+ width:924px;
+ height:500px;
+ display:none;
+ position:absolute;
+ background: #ffffff;
+ z-index:10; 
+ border:5px solid #cccccc;
+ border-radius:10px;
+ }
+
+ .cancel {
+ display:block;
+ position:absolute;
+ top:3px;
+ right:2px;
+ background:rgb(245,245,245);
+ color:black;
+ height:30px;
+ width:35px;
+ font-size:30px;
+ text-decoration:none;
+ text-align:center;
+ font-weight:bold; 
+ } 
+ 
+ #loginScreen:target, #loginScreen:target + #cover{
+	display:block; opacity:2;
+ }
+ 
+/* unvisited link */ 
+a:link {
+	color:white;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+	color:white;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+	color:white;
+    text-decoration: underline;
+}
+/* selected link */
+a:active {
+	color:white;
+    text-decoration: underline;
+}
