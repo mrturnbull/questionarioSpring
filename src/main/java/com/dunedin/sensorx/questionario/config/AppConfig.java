@@ -128,16 +128,16 @@ public class AppConfig implements WebMvcConfigurer {
 		/*
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://mysql.kinghost.com.br:3306/dragon04");
-		ds.setUsername("dragon0404_add1");
-		ds.setPassword("dragon04");
+		ds.setUrl("");
+		ds.setUsername("");
+		ds.setPassword("");
 		*/
 
 	    DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://207.244.248.55:3306/Questionario?useUnicode=yes&characterEncoding=UTF-8");
-		ds.setUsername("dunedin");
-		ds.setPassword("dunedin94");
+		ds.setUrl("");
+		ds.setUsername("");
+		ds.setPassword("");
 
 		/*
 		DriverManagerDataSource ds = new DriverManagerDataSource();
