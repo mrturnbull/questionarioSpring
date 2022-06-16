@@ -10,9 +10,9 @@
 
     <properties>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql.dragon.kinghost.net/dragon02" />
-      <property name="javax.persistence.jdbc.user" value="dragon02" />
-      <property name="javax.persistence.jdbc.password" value="testecarne94" />
+      <property name="javax.persistence.jdbc.url" value="" />
+      <property name="javax.persistence.jdbc.user" value="" />
+      <property name="javax.persistence.jdbc.password" value="" />
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
       <property name="hibernate.show_sql" value="true" />
       <property name="hibernate.hbm2ddl.auto" value="update" />
